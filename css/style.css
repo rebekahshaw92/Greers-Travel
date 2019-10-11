@@ -1,0 +1,502 @@
+/* Main Style */
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style of the phone number in the main header */
+#phone {
+  display: none;
+}
+@media (min-width: 768px) {
+  #phone {
+    display: inline;
+    color: #66728d;
+    font-weight: bold;
+    width: 200px;
+    font-size: 16px;
+    float: right;
+    padding-top: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  #phone {
+    padding-top: 35px;
+  }
+}
+
+#advice {
+  display: none;
+}
+@media (min-width: 768px) {
+  #advice {
+    display: inline;
+    color: #66728d;
+    padding-top: 5px;
+    font-size: 15px;
+    float: right;
+  }
+}
+@media (min-width: 1200px) {
+  #advice {
+    padding-top: 20px;
+  }
+}
+
+/* Style for the main header */
+.navbar-header,
+#myNavbar,
+.container-fluid {
+  background: #fff;
+}
+.navbar-header img,
+#myNavbar img,
+.container-fluid img {
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000 !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar:hover {
+  background-color: #fff !important;
+}
+
+.nav.navbar-nav li a {
+  color: #66728d;
+  font-size: 18px;
+  text-align: center;
+  background: transparent;
+}
+.nav.navbar-nav li a:hover {
+  background: #8d8166;
+}
+
+.navbar-brand img {
+  width: 170px;
+}
+
+.navbar-inverse {
+  border: none;
+  margin: 0;
+  background: #fff;
+  padding-bottom: 20px;
+}
+
+.navbar-header {
+  height: 100px;
+  margin: 0;
+  padding-bottom: 0;
+  background: #fff;
+}
+
+/* End of main header style */
+/* style for tha advice in the header */
+#advice a:link {
+  color: blue;
+}
+#advice a:visited {
+  color: blue;
+}
+#advice a:hover {
+  color: black;
+}
+
+/* Style for the logos in the header */
+@media (min-width: 768px) {
+  #abta {
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 800px) {
+  #abta {
+    padding-left: 10px;
+  }
+}
+#abta img {
+  width: 104px;
+  height: 52px;
+}
+@media (min-width: 800px) {
+  #abta img {
+    width: 94px;
+    height: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  #advatage {
+    padding-top: 20px;
+  }
+}
+#advatage img {
+  width: 95px;
+  height: 82px;
+}
+@media (min-width: 768px) {
+  #advatage img {
+    width: 85px;
+    height: 62px;
+  }
+}
+@media (min-width: 800px) {
+  #advatage img {
+    width: 75px;
+    height: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  #iata {
+    padding-top: 20px;
+  }
+}
+#iata img {
+  width: 154px;
+  height: 72px;
+}
+@media (min-width: 768px) {
+  #iata img {
+    width: 135px;
+    height: 52px;
+  }
+}
+@media (min-width: 800px) {
+  #iata img {
+    width: 125px;
+    height: 42px;
+  }
+}
+
+#links a:link {
+  color: #ff1493;
+}
+#links a:visited {
+  color: #c71585;
+}
+
+nav .row {
+  padding: 20px;
+  float: right;
+}
+
+/* About us section */
+#aboutus {
+  padding-top: 40px;
+  height: 1220px;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: #000;
+  background-color: #efefef;
+}
+@media (min-width: 566px) {
+  #aboutus {
+    height: 900px;
+  }
+}
+@media (min-width: 768px) {
+  #aboutus {
+    height: 750px;
+  }
+}
+@media (min-width: 800px) {
+  #aboutus {
+    height: 900px;
+  }
+}
+@media (min-width: 992px) {
+  #aboutus {
+    height: 700px;
+  }
+}
+#aboutus iframe {
+  height: 800px;
+  position: absolute;
+  padding-right: 20px;
+  height: 400px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+@media (min-width: 566px) {
+  #aboutus iframe {
+    width: 350px;
+  }
+}
+@media (min-width: 800px) {
+  #aboutus iframe {
+    height: 600px;
+  }
+}
+#aboutus p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5;
+  font-size: 12px;
+}
+@media (min-width: 992px) {
+  #aboutus p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  #aboutus p {
+    font-size: 16px;
+  }
+}
+#aboutus h1 {
+  font-size: 28px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #aboutus h1 {
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+#abouttext {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+#facebook2 {
+  display: inline;
+  padding-top: 20px;
+  height: 300px;
+  width: 100px;
+}
+@media (min-width: 768px) {
+  #facebook2 {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  #facebook2 {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  #facebook2 {
+    display: none;
+  }
+}
+
+#facebook {
+  display: none;
+}
+@media (min-width: 768px) {
+  #facebook {
+    display: inline;
+    padding-top: 20px;
+    height: 530px;
+    width: 500px;
+  }
+}
+@media (min-width: 800px) {
+  #facebook {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #facebook {
+    display: inline;
+  }
+}
+
+/* Slideshow style */
+#home {
+  margin: 0;
+  padding: 0;
+  height: 550px;
+}
+#home img {
+  padding-bottom: 20px;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#myCarousel img {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: #fff;
+  height: 170px;
+  width: 100%;
+}
+@media (min-width: 566px) {
+  #myCarousel img {
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  #myCarousel img {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  #myCarousel img {
+    height: 550px;
+  }
+}
+
+/* Contact us style */
+#contactus {
+  padding-top: 40px;
+  height: 500px;
+  background: #efefef;
+}
+@media (min-width: 768px) {
+  #contactus {
+    height: 400px;
+  }
+}
+#contactus h1 {
+  font-size: 28px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #contactus h1 {
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+#contactus h2 {
+  font-size: 20px;
+}
+#contactus address {
+  line-height: 1.5;
+}
+
+#openandfind {
+  padding: 10px;
+}
+
+#open {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+#open h2 {
+  font-size: 18px;
+}
+#open p {
+  font-size: 14px;
+}
+
+#terms {
+  padding: 40px;
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2;
+  padding-top: 0;
+  background-color: #efefef;
+}
+
+/* Google Map */
+#map {
+  height: 254px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+/* Links style */
+#links {
+  padding-top: 50px;
+  height: 500px;
+  color: #000;
+  background-color: #fff;
+}
+@media (min-width: 800px) {
+  #links {
+    height: 350px;
+  }
+}
+#links h2 {
+  font-size: 15px;
+}
+
+/* Style for map */
+#findusmap {
+  height: 254px;
+}
+
+/* Style for vidoe */
+#video {
+  display: none;
+}
+@media (min-width: 768px) {
+  #video {
+    display: block;
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 370px;
+    color: #000;
+    background-color: #fff;
+  }
+}
+
+/* Footer */
+#footertext {
+  text-align: center;
+  padding-top: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0;
+}
+@media (min-width: 566px) {
+  #footertext {
+    padding-top: 250px;
+  }
+}
+
+#footer {
+  background: #66728d;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+}
+#footer p a:link {
+  color: #fff;
+}
+#footer p a:hover {
+  color: #8d8166;
+}
+
+#Navbar {
+  padding-left: 70px;
+  float: left;
+}
+#Navbar li a {
+  color: #fff;
+}
+#Navbar li a:hover {
+  background-color: #8d8166;
+}
+
+#contact {
+  width: 300px;
+  padding-left: 80px;
+  float: left;
+}
+#contact h2 {
+  text-align: left;
+}
+#contact address {
+  text-align: left;
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
